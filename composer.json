@@ -1,0 +1,17 @@
+{
+	"name":"booking",
+	"description":"---",
+	"type":"project",
+  "require": {
+    	"illuminate/events": "^5.4,<5.8",
+		"illuminate/database": "^5.4,<5.8",
+    "ext-json": "*",
+		"illuminate/routing": "5.7.19"
+  },
+	"autoload": {
+		"psr-4" : {
+			"Controllers\\": "app/controllers/",
+            "Models\\": "app/models/"
+		}
+	}
+}
